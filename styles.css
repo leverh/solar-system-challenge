@@ -129,9 +129,10 @@ body {
 .sun {
     width: 8rem;
     height: 8rem;
+    background-image: url('images/sun.jpg');
     background-color: yellow;
     border-radius: 50%;
-    box-shadow: 0 0 50px yellow;
+    box-shadow: 0 0 50px #840000;
     position: absolute;
     top: 50%;
     left: 50%;
