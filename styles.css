@@ -144,12 +144,17 @@ body {
     border-radius: 50%;
     top: 50%;
     left: 50%;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
 
 /* Planets on orbits */
 .mercury {
     width: 1rem;
     height: 1rem;
+    background-image: url('images/mercury.jpg');
     background-color: gray;
     transform: translate(-50%, -50%) translateX(8rem);
     animation: orbit-mercury 4s linear infinite;
@@ -159,6 +164,7 @@ body {
 .venus {
     width: 1.5rem;
     height: 1.5rem;
+    background-image: url('images/venus.jpg');
     background-color: orange;
     transform: translate(-50%, -50%) translateX(15rem);
     animation: orbit-venus 7s linear infinite;
@@ -168,6 +174,7 @@ body {
 .earth {
     width: 1.8rem;
     height: 1.8rem;
+    background-image: url('images/earth.jpg');
     background-color: blue;
     transform: translate(-50%, -50%) translateX(22rem);
     animation: orbit-earth 10s linear infinite;
@@ -177,6 +184,7 @@ body {
 .mars {
     width: 1.2rem;
     height: 1.2rem;
+    background-image: url('images/mars.jpg');
     background-color: red;
     transform: translate(-50%, -50%) translateX(29rem);
     animation: orbit-mars 15s linear infinite;
@@ -186,6 +194,7 @@ body {
 .jupiter {
     width: 4rem;
     height: 4rem;
+    background-image: url('images/jupiter.jpg');
     background-color: brown;
     transform: translate(-50%, -50%) translateX(36rem);
     animation: orbit-jupiter 25s linear infinite;
@@ -195,6 +204,7 @@ body {
 .saturn {
     width: 3.5rem;
     height: 3.5rem;
+    background-image: url('images/saturn.jpg');
     background-color: goldenrod;
     transform: translate(-50%, -50%) translateX(43rem);
     animation: orbit-saturn 30s linear infinite;
@@ -204,6 +214,7 @@ body {
 .uranus {
     width: 2.5rem;
     height: 2.5rem;
+    background-image: url('images/uranus.jpg');
     background-color: lightblue;
     transform: translate(-50%, -50%) translateX(50rem);
     animation: orbit-uranus 35s linear infinite;
@@ -213,6 +224,7 @@ body {
 .neptune {
     width: 2.4rem;
     height: 2.4rem;
+    background-image: url('images/neptune.jpg');
     background-color: darkblue;
     transform: translate(-50%, -50%) translateX(57rem);
     animation: orbit-neptune 40s linear infinite;
