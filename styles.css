@@ -1,0 +1,261 @@
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/images/space.jpg);
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.solar-system {
+    position: relative;
+    width: 80rem;
+    height: 80rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+}
+
+/* Orbits */
+.orbit-mercury {
+    width: 16rem; 
+    height: 16rem;
+    position: absolute;
+    border: 1px dashed rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.orbit-venus {
+    width: 30rem;
+    height: 30rem;
+    position: absolute;
+    border: 1px dashed rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.orbit-earth {
+    width: 44rem;
+    height: 44rem;
+    position: absolute;
+    border: 1px dashed rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.orbit-mars {
+    width: 58rem;
+    height: 58rem;
+    position: absolute;
+    border: 1px dashed rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.orbit-jupiter {
+    width: 72rem;
+    height: 72rem;
+    position: absolute;
+    border: 1px dashed rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.orbit-saturn {
+    width: 86rem;
+    height: 86rem;
+    position: absolute;
+    border: 1px dashed rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.orbit-uranus {
+    width: 100rem;
+    height: 100rem;
+    position: absolute;
+    border: 1px dashed rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.orbit-neptune {
+    width: 114rem;
+    height: 114rem;
+    position: absolute;
+    border: 1px dashed rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Sun */
+.sun {
+    width: 8rem;
+    height: 8rem;
+    background-color: yellow;
+    border-radius: 50%;
+    box-shadow: 0 0 50px yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Planets */
+.planet {
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+}
+
+/* Planets on orbits */
+.mercury {
+    width: 1rem;
+    height: 1rem;
+    background-color: gray;
+    transform: translate(-50%, -50%) translateX(8rem);
+    animation: orbit-mercury 4s linear infinite;
+}
+
+/* Venus */
+.venus {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: orange;
+    transform: translate(-50%, -50%) translateX(15rem);
+    animation: orbit-venus 7s linear infinite;
+}
+
+/* Earth */
+.earth {
+    width: 1.8rem;
+    height: 1.8rem;
+    background-color: blue;
+    transform: translate(-50%, -50%) translateX(22rem);
+    animation: orbit-earth 10s linear infinite;
+}
+
+/* Mars */
+.mars {
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: red;
+    transform: translate(-50%, -50%) translateX(29rem);
+    animation: orbit-mars 15s linear infinite;
+}
+
+/* Jupiter */
+.jupiter {
+    width: 4rem;
+    height: 4rem;
+    background-color: brown;
+    transform: translate(-50%, -50%) translateX(36rem);
+    animation: orbit-jupiter 25s linear infinite;
+}
+
+/* Saturn */
+.saturn {
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: goldenrod;
+    transform: translate(-50%, -50%) translateX(43rem);
+    animation: orbit-saturn 30s linear infinite;
+}
+
+/* Uranus */
+.uranus {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: lightblue;
+    transform: translate(-50%, -50%) translateX(50rem);
+    animation: orbit-uranus 35s linear infinite;
+}
+
+/* Neptune */
+.neptune {
+    width: 2.4rem;
+    height: 2.4rem;
+    background-color: darkblue;
+    transform: translate(-50%, -50%) translateX(57rem);
+    animation: orbit-neptune 40s linear infinite;
+}
+
+/* Orbit animations */
+
+@keyframes orbit-mercury {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(8rem); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(8rem); }
+}
+
+@keyframes orbit-venus {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(15rem); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(15rem); }
+}
+
+@keyframes orbit-earth {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(22rem); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(22rem); }
+}
+
+@keyframes orbit-mars {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(29rem); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(29rem); }
+}
+
+@keyframes orbit-jupiter {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(36rem); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(36rem); }
+}
+
+@keyframes orbit-saturn {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(43rem); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(43rem); }
+}
+
+@keyframes orbit-uranus {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(50rem); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(50rem); }
+}
+
+@keyframes orbit-neptune {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(57rem); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(57rem); }
+}
