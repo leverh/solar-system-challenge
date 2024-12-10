@@ -19,6 +19,7 @@
         <div class="orbit-neptune"></div>
     
         <!-- Planets -->
+        <div class="sun" onclick="showPlanetInfo('sun')"></div>
         <div class="planet mercury" onclick="showPlanetInfo('mercury')"></div>
         <div class="planet venus" onclick="showPlanetInfo('venus')"></div>
         <div class="planet earth" onclick="showPlanetInfo('earth')"></div>
@@ -27,12 +28,13 @@
         <div class="planet saturn" onclick="showPlanetInfo('saturn')"></div>
         <div class="planet uranus" onclick="showPlanetInfo('uranus')"></div>
         <div class="planet neptune" onclick="showPlanetInfo('neptune')"></div>
+        
         <div id="planet-info-modal" class="modal">
             <div class="modal-content">
                 <span class="close-button" onclick="closeModal()">&times;</span>
                 <div id="planet-info"></div>
             </div>
-        </div>
+        </div>        
     </div>
     <script src="script.js"></script>
 </body>
