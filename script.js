@@ -12,7 +12,7 @@ const planetData = {
         surfaceTemperature: "-173°C to 427°C",
         atmosphereComposition: "Trace amounts of oxygen, sodium, hydrogen, helium, and potassium",
         numberOfMoons: 0,
-        image: "images/mercury2.jpg",
+        image: "images/mercury2.webp",
     },
     venus: {
         name: "Venus",
@@ -39,7 +39,8 @@ const planetData = {
         rotationPeriod: "24 hours",
         surfaceTemperature: "-88°C to 58°C",
         atmosphereComposition: "78% nitrogen, 21% oxygen, 1% other gases",
-        numberOfMoons: 1
+        numberOfMoons: 1,
+        image: "images/earth2.jpg",
     },
     mars: {
         name: "Mars",
@@ -52,7 +53,8 @@ const planetData = {
         rotationPeriod: "24.6 hours",
         surfaceTemperature: "-87°C to -5°C",
         atmosphereComposition: "95% carbon dioxide, 2.7% nitrogen, 1.6% argon",
-        numberOfMoons: 2
+        numberOfMoons: 2,
+        image: "images/mars2.jpg",
     },
     jupiter: {
         name: "Jupiter",
@@ -65,7 +67,8 @@ const planetData = {
         rotationPeriod: "9 hours, 56 minutes",
         surfaceTemperature: "-145°C",
         atmosphereComposition: "90% hydrogen, 10% helium, trace amounts of methane and ammonia",
-        numberOfMoons: 92
+        numberOfMoons: 92,
+        image: "images/jupiter2.jpg",
     },
     saturn: {
         name: "Saturn",
@@ -79,6 +82,7 @@ const planetData = {
         surfaceTemperature: "-178°C",
         atmosphereComposition: "96% Hydrogen, 3% Helium",
         numberOfMoons: "83 (Notable: Titan, Enceladus)",
+        image: "images/saturn2.jpg",
     },
     uranus: {
         name: "Uranus",
@@ -92,6 +96,7 @@ const planetData = {
         surfaceTemperature: "-224°C",
         atmosphereComposition: "83% Hydrogen, 15% Helium, 2% Methane",
         numberOfMoons: "27 (Notable: Titania, Oberon, Miranda)",
+        image: "images/uranus2.jpg",
     },
     neptune: {
         name: "Neptune",
@@ -105,6 +110,7 @@ const planetData = {
         surfaceTemperature: "-214°C",
         atmosphereComposition: "80% Hydrogen, 19% Helium, 1% Methane",
         numberOfMoons: "14 (Notable: Triton)",
+        image: "images/neptune2.jpg",
     },
     sun: {
         name: "Sun",
