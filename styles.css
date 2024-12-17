@@ -3,6 +3,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: "Montserrat", sans-serif;
 }
 
 html {
@@ -13,16 +14,16 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    height: 100vh;
+    flex-direction: column;
+    min-height: 100vh;
     background-image: url(/images/space.jpg);
     background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     color: white;
-    font-family: "Montserrat", sans-serif;
 }
 
 .solar-system {
@@ -34,6 +35,8 @@ body {
     justify-content: center;
     align-items: center;
     overflow: visible;
+    margin-bottom: 5rem;
+    margin-top: 8rem;
 }
 
 /* Orbits */
@@ -414,4 +417,23 @@ body {
     margin: 1rem 0; 
     border-radius: 10px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+footer {
+    margin-top: 3rem;
+    color: white;
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer a:hover {
+    font-size: 1.7rem;
 }

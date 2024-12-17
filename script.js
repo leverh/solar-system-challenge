@@ -185,3 +185,8 @@ function closeModal() {
     const modal = document.getElementById("planet-info-modal");
     modal.style.display = "none";
 }
+
+//Copyright Year
+const yearElement = document.getElementById("year");
+  const currentYear = new Date().getFullYear();
+  yearElement.textContent = currentYear;
