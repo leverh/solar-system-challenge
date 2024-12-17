@@ -159,7 +159,7 @@ function showPlanetInfo(planet) {
     } else {
         // Populate planet info
         infoDiv.innerHTML = `
-            <h1>${data.name}</h1>
+            <h2>${data.name}</h2>
             <img src="${data.image}" alt="${data.name}" class="planet-image" />
             <p><strong>Type:</strong> ${data.type}</p>
             <p><strong>Diameter:</strong> ${data.diameter}</p>
