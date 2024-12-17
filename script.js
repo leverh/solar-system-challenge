@@ -125,6 +125,20 @@ const planetData = {
         atmosphereComposition: "74% Hydrogen, 24% Helium, 2% Other elements",
         numberOfMoons: "0 (the Sun is not orbited by moons)",
         image: "images/sun2.jpg",
+    },
+    pluto: {
+        name: "Pluto",
+        type: "Dwarf Planet",
+        diameter: "2,377 km",
+        temperature: "-240°C to -218°C",
+        mass: "1.3 × 10²² kg",
+        distance: "5.9 billion km",
+        orbitalPeriod: "248 Earth years",
+        rotationPeriod: "153 hours (6.4 Earth days)",
+        surfaceTemperature: "-229°C",
+        atmosphereComposition: "Nitrogen, Methane, Carbon Monoxide",
+        numberOfMoons: "5 (Notable: Charon)",
+        image: "images/pluto2.jpg"
     }
 };
 
