@@ -30,6 +30,7 @@ h1 {
     font-size: 2.5rem;
     margin-top: 1rem;
     margin-bottom: 1.5rem;
+    color: #f8ecec;
 }
 
 .solar-system {
@@ -136,16 +137,14 @@ h1 {
 
 .orbit-pluto {
     position: absolute;
-    width: 92rem; /* Slightly larger than Neptune's orbit */
+    width: 92rem;
     height: 92rem;
-    border: 1px dashed rgba(255, 255, 255, 0.5); /* Dashed orbit */
-    border-radius: 50%; /* Makes it circular */
+    border: 1px dashed rgba(255, 255, 255, 0.5); 
+    border-radius: 50%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-
 
 /* Sun */
 .sun {
@@ -241,10 +240,10 @@ h1 {
 .saturn::before {
     content: '';
     position: absolute;
-    width: 6rem; /* Adjust size for proportional circular ring */
-    height: 2rem; /* Slightly elliptical to reflect Saturn’s real rings */
-    border: 0.2rem solid rgba(200, 150, 50, 0.8); /* Ring color */
-    border-radius: 50%; /* Makes it elliptical */
+    width: 6rem;
+    height: 2rem; 
+    border: 0.2rem solid rgba(200, 150, 50, 0.8); 
+    border-radius: 50%; 
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -255,9 +254,9 @@ h1 {
 .saturn::after {
     content: '';
     position: absolute;
-    width: 8rem; /* Larger width for the outer elliptical ring */
-    height: 3rem; /* More elliptical */
-    border: 0.1rem solid rgba(200, 150, 50, 0.5); /* Secondary, thinner ring */
+    width: 8rem; 
+    height: 3rem; 
+    border: 0.1rem solid rgba(200, 150, 50, 0.5); 
     border-radius: 50%;
     top: 50%;
     left: 50%;
@@ -285,6 +284,7 @@ h1 {
     animation: orbit-neptune 80s linear infinite;
 }
 
+/* Pluto */
 .pluto {
     width: 1.5rem;
     height: 1.5rem;
@@ -295,11 +295,9 @@ h1 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) translateX(46rem); /* Position Pluto on orbit */
-    animation: orbit-pluto 90s linear infinite; /* Circular orbit motion */
+    transform: translate(-50%, -50%) translateX(46rem); 
+    animation: orbit-pluto 90s linear infinite;
 }
-
-
 
 /* Keyframes for Rotation */
 @keyframes rotate {
@@ -369,7 +367,6 @@ h1 {
     left: 0;
     width: 100%;
     height: 100%;
-    /* background: rgba(0, 0, 0, 0.8); */
     z-index: 1000;
     justify-content: center;
     align-items: center;
@@ -386,7 +383,7 @@ h1 {
     max-width: 800px;
     text-align: center;
     position: relative;
-    color: white;
+    color: #f8ecec;
     overflow: hidden;
 }
 
@@ -405,7 +402,7 @@ h1 {
 
 .modal-content p {
     margin-top: 0;
-    color: white;
+    color: #f8ecec;
     font-size: 1.5rem;
 }
 
@@ -415,7 +412,7 @@ h1 {
     right: 1rem;
     font-size: 3rem;
     cursor: pointer;
-    color: white;
+    color: #f8ecec;
 }
 
 .planet-image {
@@ -429,13 +426,13 @@ h1 {
 
 footer {
     margin-top: 3rem;
-    color: white;
+    color: #f8ecec;
     font-size: 1.5rem;
     padding-bottom: 3rem;
 }
 
 footer a {
-    color: white;
+    color: #f8ecec;
     text-decoration: none;
     font-size: 1.5rem;
     text-decoration: underline;
