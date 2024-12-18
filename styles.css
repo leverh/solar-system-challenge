@@ -26,6 +26,12 @@ body {
     color: white;
 }
 
+h1 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
 .solar-system {
     position: relative;
     width: 80rem;
@@ -393,8 +399,8 @@ body {
     0 0 30px rgba(0, 162, 255, 0.3);
     display: block;
     margin: 0 auto;
-    margin-top: 1.2rem;
-    margin-bottom: 1.2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .modal-content p {
